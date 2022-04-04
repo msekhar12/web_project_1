@@ -481,5 +481,10 @@
   height: 16px;
 }
 
+.footer__column-link:hover {
+  color: #c1c1c1;
+}
+
 .footer__copyright {
+  margin: 0;
 }
