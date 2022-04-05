@@ -424,15 +424,11 @@
   height: 80px;
 }
 
-.footer__column_content-hours-social {
-  display: flex;
-  gap: 100px;
-}
-
 .footer__column_content_hours {
   display: flex;
   gap: 20px;
   flex-direction: column;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
@@ -440,7 +436,7 @@
   gap: 20px;
   flex-direction: column;
   padding: 0px;
-  margin: 0px;
+  margin-left: 100px;
 }
 
 .footer__logo {
