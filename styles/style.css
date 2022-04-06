@@ -126,7 +126,7 @@
   max-width: 760px;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 68px;
+  padding: 68px 0px 0px;
   justify-content: space-between;
   align-content: space-between;
   row-gap: 40px;
@@ -270,12 +270,12 @@
 }
 
 .person_name_feynman {
-  top: 30px;
+  top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
-  top: 126px;
+  top: 96px;
   right: 125px;
 }
 
@@ -290,7 +290,7 @@
 }
 
 .person_name_tarter {
-  top: 109px;
+  top: 79px;
   left: 159px;
 }
 
@@ -412,7 +412,7 @@
   padding: 60px 102px 60px 80px;
   color: white;
   background: #1f1f1f;
-  min-height: 344px;
+  min-height: 244px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -421,7 +421,6 @@
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  height: 80px;
 }
 
 .footer__column_content_hours {
@@ -475,6 +474,7 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
 
 .footer__column-link:hover {
@@ -482,5 +482,5 @@
 }
 
 .footer__copyright {
-  margin: 0;
+  margin: 108px 0px 0px 0px;
 }
